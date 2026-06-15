@@ -46,12 +46,16 @@ Raw Data → Bronze Layer → Silver Layer → Gold Layer → Reporting
 * Schema enforcement
 * Data standardization
 * Deduplication
+* removin null values
 
 ### Gold Layer
 
 * Business-ready datasets
 * Aggregated metrics
 * Reporting tables
+
+#### Analytics layer 
+ * creating driver standings and constructor standings for analysis
 
 ---
 
@@ -78,9 +82,6 @@ Formula 1 datasets include:
 * Circuits
 * Races
 * Results
-* Pit Stops
-* Lap Times
-* Qualifying Data
 
 Source Format:
 
@@ -133,12 +134,6 @@ Publish business-ready datasets for reporting.
 * Silver Layer
 * Gold Layer
 
-### Performance Optimization
-
-* Partitioning
-* Delta Lake Optimization
-* File Compaction
-* Caching
 
 ### Data Quality
 
@@ -162,12 +157,6 @@ Publish business-ready datasets for reporting.
 * Season performance
 * Podium finishes
 
-### Race Analytics
-
-* Circuit performance
-* Race completion statistics
-* Historical trends
-
 ---
 
 ## How to Run
@@ -175,7 +164,7 @@ Publish business-ready datasets for reporting.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/formula1-data-engineering.git
+git clone https://github.com/KonduriHimaja/Formula1-Azure_databricks_ETL_Pipeline.git
 ```
 
 ### Configure Environment
@@ -222,4 +211,4 @@ Aspiring Data Engineer | Azure Databricks | PySpark | SQL | Data Engineering Pro
 
 LinkedIn: https://www.linkedin.com/in/konduri-himaja/
 
-GitHub: Add Your GitHub Profile
+GitHub: https://github.com/KonduriHimaja
