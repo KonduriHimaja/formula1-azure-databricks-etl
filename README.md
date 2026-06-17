@@ -53,9 +53,7 @@ Raw Data → Bronze Layer → Silver Layer → Gold Layer → Reporting
 * Business-ready datasets
 * Aggregated metrics
 * Reporting tables
-
-#### Analytics layer 
- * creating driver standings and constructor standings for analysis
+* created driver standings and constructor standings for analysis
 
 ---
 
@@ -164,7 +162,7 @@ Publish business-ready datasets for reporting.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/KonduriHimaja/Formula1-Azure_databricks_ETL_Pipeline.git
+git clone https://github.com/KonduriHimaja/formula1-azure-databricks-etl.git
 ```
 
 ### Configure Environment
